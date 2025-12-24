@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GDGC Sessions</title>
+    <style>
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: auto auto;
+            width: 420px;
+            padding: 25px;
+            background-color: #f0f0f0;
+            border: 2px solid #000;
+            border-radius: 12px;
+            margin: 100px auto;
+            color:rgb(240, 240, 198);
+
+            flex-direction: column;  
+            align-items: center;
+            gap: 20px;
+        }
+        .small1{
+                justify-content: left;
+            text-align: left;
+            background-color: rgb(235, 235, 149);
+        }
+        .small2{
+            text-align: right;
+            color: yellow;
+        }
+        .big {
+            grid-column: 1/3;
+            text-align: center;
+        }
+        .price-row {
+            display: flex;
+            align-items: baseline;
+            gap: 8px;
+            justify-content: left;
+        }
+    </style>
+</head>
+<body bgcolor="white">
+    <div class="grid">
+    <div class="big">
+        <img src="gdgc_logo.png" alt="GDGC Logo" style="width:200px";>
+        <h1 style="font-weight:bold; font-size:1.5em; color:black;"> GDGC Sessions </h1>
+        <em style="color:green; font-style:normal;"> Learn, Share, Build </em>
+        <p style="color:blue; font-style:italic " >By subscribing, you get full access to our hands-on sessions 🛠️, exclusive workshops 🎓, 
+        and expert-led learning experiences 👩‍💻👨‍💻. 
+        Your subscription helps you stay up to date with the latest tech trends 🚀 while supporting 
+        a growing student community 🤝 that learns, builds, and innovates together 💡. 
+        Invest in your skills 📈 and be part of our journey ✨.</p>
+        <h5><a href="https://gdg.community.dev/gdg-on-campus-higher-institute-of-applied-science-and-technology-sousse-tunisia/" target="_blank"> Visit our Website </a></h5>
+    </div>
+    <div class="small1">
+        <h3 style="color:black; justify-content: left; "> Monthly Subscription </h3>
+        <div class="price-row">
+            <h1 style="font-weight:bold; font-size:1.5em; color:black; margin:0;">$9.99</h1>
+            <h3 style="color:black; margin:0;">per month</h3>
+        </div>
+        <button style="justify-content: left; margin:5px; padding:8px 14px; border:black 2px solid; border-radius:6px; cursor:pointer; background-color:lightblue; color:black; width:160px; text-align:center;"> Subscribe Now </button>
+    </div>
+    <div class="small2">
+        <h2 style="color:black">WHY US?</h2>
+        <p style="color:black">We offer practical, beginner-friendly, and up-to-date sessions led by 
+        passionate mentors who focus on real-world skills. Our workshops are 
+        designed to help you learn by doing, connect with like-minded peers, 
+        and grow confidently in different tech fields—all within a supportive 
+        and collaborative community.</p>
+    </body>
+</html>
